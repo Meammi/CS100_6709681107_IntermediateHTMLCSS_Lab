@@ -11,3 +11,10 @@ html{
 body{
     height: 100vh;
 }
+
+body *{
+    background-color: yellow;
+    padding:10px;
+    border: 2px solid gray;
+    text-align: center;
+}
