@@ -12,9 +12,35 @@ body{
     height: 100vh;
 }
 
-body *{
+body header,nav,article,div,footer{
     background-color: yellow;
     padding:10px;
     border: 2px solid gray;
     text-align: center;
+}
+
+header{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+div{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+article{
+    float: left;
+    width: 60%;
+    height: 200px;
 }
